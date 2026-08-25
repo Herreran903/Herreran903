@@ -139,6 +139,17 @@ The line of work that started with a research internship and kept going.
 
 </details>
 
+
+## Contribution graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Herreran903/Herreran903/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Herreran903/Herreran903/output/github-snake.svg">
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Herreran903/Herreran903/output/github-snake.svg">
+  </picture>
+</p>
+
 <p align="center">
   <sub>Open to remote roles worldwide · Graduating November 2026</sub>
 </p>
