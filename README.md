@@ -1,11 +1,11 @@
 <p align="center">
-  <a href="https://linkedin.com/in/nicolas-herrera-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:herreran903@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Cali,%20Colombia-0B0E14?style=for-the-badge&logo=googlemaps&logoColor=E10600" alt="Location">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=34&duration=3000&pause=1200&color=6366F1&center=true&vCenter=true&width=700&height=70&lines=Nicol%C3%A1s+Herrera+Marulanda" alt="Nicolás Herrera Marulanda">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&duration=2800&pause=1400&color=E10600&center=true&vCenter=true&width=680&lines=Clinical+NER+in+Spanish+%E2%80%94+0.8767+strict+F1;Four+Spring+Boot+microservices%2C+53+test+classes;3D+multiplayer+game+running+in+the+browser;Variability+modeling+for+the+FIA+F1+2026+regulations" alt="highlights">
+  <a href="https://linkedin.com/in/nicolas-herrera-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:herreran903@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Cali,%20Colombia-0B0E14?style=for-the-badge&logo=googlemaps&logoColor=E10600" alt="Location">
 </p>
 
 ---
