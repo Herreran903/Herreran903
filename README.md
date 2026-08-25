@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=34&duration=3000&pause=1200&color=6366F1&center=true&vCenter=true&width=700&height=70&lines=Nicol%C3%A1s+Herrera+Marulanda" alt="Nicolás Herrera Marulanda">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=30&duration=2600&pause=1100&color=E10600&center=true&vCenter=true&width=800&height=70&lines=Nicol%C3%A1s+Herrera+Marulanda;Full+Stack+Developer;Applied+NLP+%26+Machine+Learning;Research+Intern+%40+PReCISE%2C+Universit%C3%A9+de+Namur;Systems+Engineering+%40+Universidad+del+Valle" alt="Nicolás Herrera Marulanda — Full Stack Developer">
 </p>
 
 <p align="center">
