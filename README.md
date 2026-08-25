@@ -46,13 +46,102 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
 
 ## Featured work
 
-| Project | What it does | Stack |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏁 [MedAI](https://github.com/Herreran903/medai-backend)
+**Undergraduate thesis** · Clinical NER in Spanish
+
+Corpus annotated from scratch, four modeling approaches compared, **0.8767 strict F1** validated against an expert-annotated set. Served through a FastAPI microservices backend exposing five selectable models, each isolated in its own container.
+
+<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [NER model pipelines](https://github.com/Herreran903/ner_pipelines)
+Neural architectures behind the thesis
+
+Training pipelines for **BiLSTM+CRF** and transformer models: embedding utilities, data preprocessing, model wrappers and evaluation notebooks. Hyperparameter search with Optuna.
+
+<img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"> <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ [Emazon microservices](https://github.com/Herreran903/api-stock)
+**Pragma Power Up** · E-commerce backend
+
+Four REST microservices — users, catalog, cart, checkout — built on hexagonal architecture, with JWT auth and inter-service calls over OpenFeign that propagate the caller's token. **53 unit test classes.**
+
+<img src="https://img.shields.io/badge/-Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+
+</td>
+<td width="50%" valign="top">
+
+### 🔧 [ToolFlow](https://github.com/kev405/toolflow-backend)
+Multi-site tool &amp; fleet management
+
+Inventory, loans and inter-site transfers for workshops with multiple locations. **Lead contributor on both ends** — 138 backend classes and 10 versioned Flyway migrations, plus the React frontend.
+
+<img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎮 [El Rescate de Hogwarts](https://github.com/Desarrollo-PI/Proyecto-Videojuego-SB)
+3D adventure game in the browser — **[play it →](https://proyecto-videojuego-sb.vercel.app)**
+
+Four levels, physics-driven movement, spell and mana systems, real-time multiplayer over Socket.IO. Full UX cycle behind it: interviews, affinity mapping, protopersonas and per-level usability testing.
+
+<img src="https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"> <img src="https://img.shields.io/badge/-React%20Three%20Fiber-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black">
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [La Sala](https://github.com/Herreran903/la-sala)
+**Hackathon** · Shared LLM agent session — **[try it →](https://sesion-agente.vercel.app)**
+
+An agent session a whole team watches live. Every instruction is attributed, conflicting requests open a **vote that halts the agent**, and control passes between drivers without losing context.
+
+<img src="https://img.shields.io/badge/-Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/-React%2019-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+
+</td>
+</tr>
+</table>
+
+### 🏎️ Optimization &amp; formal methods
+
+The line of work that started with a research internship and kept going.
+
+| | |
+|---|---|
+| **[JSSP solver](https://github.com/Herreran903/jssp-backend)** · **[visualizer](https://github.com/Herreran903/jssp-visualizer)** | Job Shop Scheduling solved with **MiniZinc** constraint models — tardiness and maintenance variants — exposed through a dockerized FastAPI service, with a TypeScript frontend to explore the schedules. |
+| **[Research practice](https://github.com/Herreran903/practica-invg)** | JSSP instance generation and CNN-based datasets, bridging deep learning and combinatorial optimization. |
+| **PReCISE, Université de Namur** | Variability modeling of the **FIA Formula 1 2026 Technical Regulations** in UVL: 1,060 boolean features, 34 cardinalities, 1,212 constraints. Benchmarked Z3 (SMT) against CP-SAT and CBC — Z3 came out an order of magnitude faster. |
+
+<details>
+<summary><b>More projects</b> — data engineering, algorithms, simulation, languages</summary>
+
+<br>
+
+| Project | What it is | Stack |
 |---|---|---|
-| **[MedAI](https://github.com/Herreran903/medai-backend)** <br> *undergraduate thesis* | Spanish clinical NER. Corpus annotated from scratch, four modeling approaches compared, **0.8767 strict F1** validated against an expert-annotated set. Served through a FastAPI microservices backend with five selectable models. | `Python` `PyTorch` `FastAPI` `Next.js` `MongoDB` |
-| **[Emazon microservices](https://github.com/Herreran903/api-stock)** <br> *Pragma Power Up* | Four REST microservices — users, catalog, cart, checkout — with hexagonal architecture, JWT auth and inter-service calls over OpenFeign. 53 unit test classes. | `Java 17` `Spring Boot` `MySQL` `OpenFeign` |
-| **[ToolFlow](https://github.com/kev405/toolflow-backend)** | Multi-site tool, vehicle and spare-part management: inventory, loans and inter-site transfers. Lead contributor on both backend and frontend. | `Java` `Spring Boot` `PostgreSQL` `Flyway` `React` |
-| **[El Rescate de Hogwarts](https://github.com/Desarrollo-PI/Proyecto-Videojuego-SB)** <br> [**play it →**](https://proyecto-videojuego-sb.vercel.app) | Browser-based 3D adventure game: four levels, physics-driven movement, spells and real-time multiplayer. Full UX cycle — interviews, affinity mapping, per-level usability testing. | `React Three Fiber` `Three.js` `Rapier` `Socket.IO` |
-| **[La Sala](https://github.com/Herreran903/la-sala)** <br> [**try it →**](https://sesion-agente.vercel.app) | A shared LLM agent session a whole team watches live. Per-person attribution, a vote that halts the agent when requests conflict, and handover between drivers. | `Next.js 16` `React 19` `TypeScript` |
+| **[fast-etl](https://github.com/Herreran903/fast-etl)** | Dimensional modeling pipeline: date, client, headquarter and messenger dimensions feeding an accumulating-snapshot fact table. | `Python` `Jupyter` |
+| **[Proyecto-ADA](https://github.com/Herreran903/Proyecto-ADA)** | Algorithm analysis and design: red-black trees, binary trees and heaps implemented from scratch over a scheduling domain. | `Python` |
+| **[TallerAsociacion](https://github.com/Herreran903/TallerAsociacion)** | Association rule mining over prescribed-medication records. | `Python` `Jupyter` |
+| **[Simulación Navier-Stokes](https://github.com/Herreran903/Simulacion-Naiver-Stokes)** | Fluid velocity simulation across a medium using finite differences. | `Python` |
+| **[IA search](https://github.com/SakyJoestar/IA-Proyecto-1)** | Search algorithms applied to a pathfinding problem — uninformed and heuristic strategies compared. | `Python` |
+| **[Proyecto-RGF](https://github.com/Herreran903/Proyecto-RGF)** | Cost management and optimization for sugar cane farms. | `Scala` |
+| **[Constraint programming](https://github.com/Herreran903/taller-1-restricciones)** | Modeling exercises in constraint programming — the groundwork for the JSSP solver above. | `MiniZinc` `LaTeX` |
+| **miniPy** *(private repo)* | Interpreter for a programming language: lexical and syntactic analysis, data and control structures. Built with two teammates. | `Racket` |
+
+</details>
 
 <p align="center">
   <sub>Open to remote roles worldwide · Graduating November 2026</sub>
