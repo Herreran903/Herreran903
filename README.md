@@ -1,13 +1,14 @@
-<h1 align="center">Nicolás Herrera Marulanda</h1>
-
 <p align="center">
-  Full Stack Developer · Systems Engineering, Universidad del Valle<br>
-  NLP & Machine Learning applied in undergraduate research
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=180&section=header&text=Nicol%C3%A1s%20Herrera%20Marulanda&fontSize=38&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20Developer%20%C2%B7%20NLP%20%26%20Machine%20Learning&descAlignY=58&descSize=18" alt="header" />
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/nicolas-herrera-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:herreran903@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=1200&color=6366F1&center=true&vCenter=true&width=650&lines=Systems+Engineering+%40+Universidad+del+Valle;Applied+NLP+%7C+Named+Entity+Recognition;React+%C2%B7+TypeScript+%C2%B7+Java+%C2%B7+Spring+Boot;Research+Intern+%40+PReCISE%2C+Universit%C3%A9+de+Namur" alt="typing banner" />
 </p>
 
 ---
@@ -60,6 +61,14 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Herreran903&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Herreran903&hide_border=true" alt="GitHub Streak" height="165">
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Herreran903&theme=flat&no-frame=true&row=1&column=6&margin-w=12&margin-h=10" alt="Trophies">
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:6366F1&height=90&section=footer" alt="footer" />
 </p>
 
 <p align="center"><sub>Cali, Colombia — open to remote roles worldwide</sub></p>
