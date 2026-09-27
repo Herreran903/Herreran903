@@ -59,9 +59,9 @@ Corpus annotated from scratch, four modeling approaches compared, **0.8767 stric
 ### 🧠 [NER model pipelines](https://github.com/Herreran903/ner_pipelines)
 Neural architectures behind the thesis
 
-Training pipelines for **BiLSTM+CRF** and transformer models: embedding utilities, data preprocessing, model wrappers and evaluation notebooks. Hyperparameter search with Optuna.
+The **BiLSTM+CRF** baseline the thesis transformer had to beat. Custom Keras training loop over the **CRF log-likelihood** instead of a per-token loss, plus a Dice objective for the heavy `O`-tag imbalance. Pretrained Spanish Word2Vec embeddings, BIO tagging, grid search over batch size and epochs.
 
-<img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"> <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
+<img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The line of work that started with a research internship and kept going.
 | | |
 |---|---|
 | **[JSSP solver](https://github.com/Herreran903/jssp-backend)** · **[visualizer](https://github.com/Herreran903/jssp-visualizer)** | Job Shop Scheduling solved with **MiniZinc** constraint models — tardiness and maintenance variants — exposed through a dockerized FastAPI service, with a TypeScript frontend to explore the schedules. |
-| **[Research practice](https://github.com/Herreran903/practica-invg)** | JSSP instance generation and CNN-based datasets, bridging deep learning and combinatorial optimization. |
+| **[Solver selection with CNNs](https://github.com/Herreran903/practica-invg)** | Instances of **SAT** and **JSSP** encoded as images or tensors, then a CNN predicts which solver cracks them inside the time limit. Classification, multilabel and regression pipelines, all YAML-driven. |
 | **PReCISE, Université de Namur** | Variability modeling of the **FIA Formula 1 2026 Technical Regulations** in UVL: 1,060 boolean features, 34 cardinalities, 1,212 constraints. Benchmarked Z3 (SMT) against CP-SAT and CBC — Z3 came out an order of magnitude faster. |
 
 <details>
