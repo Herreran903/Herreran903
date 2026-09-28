@@ -109,6 +109,18 @@ An agent session a whole team watches live. Every instruction is attributed, con
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 📊 [Yelp review classification](https://github.com/Herreran903/yelp-review-classification)
+**Neural Networks coursework** · Four architectures, one task
+
+MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each run under three treatments of class imbalance. The finding worth reading is a negative one: **loss weighting failed to remove majority-class bias in every configuration**, while undersampling traded accuracy for fairness and scale erased the tradeoff entirely. Bayesian hyperparameter search over 30 trials; the full Yelp dump streamed as NDJSON into Parquet shards to make multi-million-row runs fit in Colab. Ships with the 37-page report.
+
+<img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-KerasHub%20RoBERTa-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white">
+
+</td>
+</tr>
 </table>
 
 ### 🏎️ Optimization &amp; formal methods
