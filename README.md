@@ -110,14 +110,24 @@ An agent session a whole team watches live. Every instruction is attributed, con
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 📊 [Yelp review classification](https://github.com/Herreran903/yelp-review-classification)
 **Neural Networks coursework** · Four architectures, one task
 
-MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each run under three treatments of class imbalance. The finding worth reading is a negative one: **loss weighting failed to remove majority-class bias in every configuration**, while undersampling traded accuracy for fairness and scale erased the tradeoff entirely. Bayesian hyperparameter search over 30 trials; the full Yelp dump streamed as NDJSON into Parquet shards to make multi-million-row runs fit in Colab. Ships with the 37-page report.
+MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each under three treatments of class imbalance. The result worth reading is a negative one: **loss weighting failed to remove majority-class bias in every configuration**, undersampling traded accuracy for fairness, and scale erased the tradeoff. Bayesian search over 30 trials; the full Yelp dump streamed as NDJSON into Parquet shards to fit Colab. Ships with the 37-page report.
 
-<img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-KerasHub%20RoBERTa-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white">
+<img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white">
+
+</td>
+<td width="50%" valign="top">
+
+### 🩺 [Spanish clinical NER](https://github.com/Herreran903/spanish-clinical-ner)
+**NLP coursework** · Two routes to the same problem
+
+A **BiLSTM-CRF** with in-domain Word2Vec on the public **CodiEsp** corpus, against **BETO** and **XLM-RoBERTa** fine-tuned with **LoRA** adapters over ten oncology entity types including Gleason grading and TNM staging. Swept across epochs and batch sizes, scored with `seqeval` at entity level, and reported as **macro F1 0.905–0.933** rather than the weighted average the `O` tag inflates. Adapter published to the Hub.
+
+<img src="https://img.shields.io/badge/-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"> <img src="https://img.shields.io/badge/-PEFT%20LoRA-FFD21E?style=flat-square&logo=huggingface&logoColor=black"> <img src="https://img.shields.io/badge/-TensorFlow%20CRF-FF6F00?style=flat-square&logo=tensorflow&logoColor=white">
 
 </td>
 </tr>
