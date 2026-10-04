@@ -22,8 +22,8 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
   <img src="https://img.shields.io/badge/Thesis_strict_F1-0.8767-E10600?style=flat-square&labelColor=0B0E14" alt="F1 score">
   <img src="https://img.shields.io/badge/Unit_test_classes-53-E10600?style=flat-square&labelColor=0B0E14" alt="tests">
   <img src="https://img.shields.io/badge/Java_classes_shipped-265-E10600?style=flat-square&labelColor=0B0E14" alt="classes">
-  <img src="https://img.shields.io/badge/Academic_distinctions-7_semesters-E10600?style=flat-square&labelColor=0B0E14" alt="distinctions">
-  <img src="https://img.shields.io/badge/GPA-4.83%20%2F%205.0-E10600?style=flat-square&labelColor=0B0E14" alt="GPA">
+  <img src="https://img.shields.io/badge/Academic_distinctions-8_semesters-E10600?style=flat-square&labelColor=0B0E14" alt="distinctions">
+  <img src="https://img.shields.io/badge/GPA-4.84%20%2F%205.0-E10600?style=flat-square&labelColor=0B0E14" alt="GPA">
 </p>
 
 ## Stack
