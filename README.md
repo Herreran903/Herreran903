@@ -49,7 +49,7 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
 ### 🏁 [MedAI](https://github.com/Herreran903/medai-backend)
 **Undergraduate thesis** · Clinical NER in Spanish
 
-Corpus annotated from scratch, four modeling approaches compared, **0.8767 strict F1** validated against an expert-annotated set. Served through a FastAPI microservices backend exposing five selectable models, each isolated in its own container.
+Corpus annotated from scratch, four modeling approaches compared. **0.8767 strict F1** on a held-out test set, dropping to **0.5636** against independent expert annotations — a gap in annotation criteria, reported as the study's main limitation. Served through a FastAPI microservices backend exposing five selectable models, each isolated in its own container.
 
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
 
