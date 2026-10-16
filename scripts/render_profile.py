@@ -39,37 +39,3 @@ out=ROOT/'assets/terminal-profile.svg';out.parent.mkdir(exist_ok=True);out.write
 import xml.etree.ElementTree as ET
 ET.parse(out)
 print(f'Generated {out.name} ({out.stat().st_size} bytes)')
-
-# GIF fallback: browsers consistently animate this format inside GitHub READMEs.
-from PIL import Image, ImageDraw, ImageFont
-import math
-font_paths=['/System/Library/Fonts/Menlo.ttc','/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf']
-font_path=next(p for p in font_paths if Path(p).exists())
-f=ImageFont.truetype(font_path,16);title=ImageFont.truetype(font_path,22);af=ImageFont.truetype(font_path,12)
-base=Image.new('RGB',(1200,680),'#101e25');d=ImageDraw.Draw(base)
-d.rounded_rectangle((1,1,1198,678),18,outline='#36535b',width=2)
-for x,c in [(25,'#cf8067'),(47,'#d9b778'),(69,'#7fa89a')]:d.ellipse((x-5,20,x+5,30),fill=c)
-d.line((20,49,1180,49),fill='#36535b');d.text((100,17),config['title'],font=f,fill='#9eb3b6')
-y=73
-for text,kind in config['rows']:
- if kind=='gap':y+=14;continue
- d.text((565,y),text,font=title if kind=='title' else f,fill='#87c6c3' if kind=='cmd' else '#f1dfb7' if kind=='title' else '#b9c9ce');y+=27 if kind=='title' else 25
-d.text((597,570),'Open to opportunities',font=f,fill='#b9c9ce')
-robot=Image.new('RGBA',(540,600));rd=ImageDraw.Draw(robot)
-for i,row in enumerate((ROOT/'data/robot.txt').read_text().splitlines()):rd.text((4,40+i*13),row,font=af,fill='#f1dfb7')
-frames=[]
-def ease(a):return a*a*(3-2*a)
-for i in range(64):
- t=i/64
- if t<.15:z=0
- elif t<.42:z=ease((t-.15)/.27)
- elif t<.65:z=1
- elif t<.9:z=1-ease((t-.65)/.25)
- else:z=0
- scale=.88+.26*z;angle=(-3+5*max(0,min(1,(t-.42)/.23)))*z
- layer=robot.resize((round(540*scale),round(600*scale)),Image.Resampling.BICUBIC).rotate(angle,resample=Image.Resampling.BICUBIC,expand=True)
- window=Image.new('RGBA',(535,600));window.alpha_composite(layer,((535-layer.width)//2,(600-layer.height)//2))
- im=base.copy();im.paste(window,(12,58),window);di=ImageDraw.Draw(im);v=(1+math.cos(t*8*math.pi))/2
- di.ellipse((565,571,587,593),outline=(25,round(70+70*v),65),width=2);di.ellipse((573,579,579,585),fill='#66c99a');frames.append(im)
-frames[0].save(ROOT/'assets/terminal-profile.gif',save_all=True,append_images=frames[1:],duration=125,loop=0,optimize=True,disposal=2)
-print('Generated looping GIF fallback')
