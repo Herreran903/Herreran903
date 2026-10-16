@@ -14,17 +14,18 @@ parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBo
 '<path d="M20 49H1180" stroke="#36535b"/>']
 for x,c in [(25,'#cf8067'),(47,'#d9b778'),(69,'#7fa89a')]:parts.append(f'<circle cx="{x}" cy="25" r="5" fill="{c}"/>')
 parts.append(f'<text x="100" y="30" font-size="14" fill="#9eb3b6">{esc(config["title"])}</text>')
+parts.append('<defs><clipPath id="robotViewport"><rect x="12" y="58" width="535" height="600" rx="8"/></clipPath></defs><g clip-path="url(#robotViewport)"><g transform="translate(270 350)"><g>')
+if not static:
+    parts.append('<animateTransform attributeName="transform" type="scale" values="0.88;0.88;1.14;1.14;0.88;0.88" keyTimes="0;.15;.42;.65;.9;1" calcMode="spline" keySplines=".4 0 .2 1;.4 0 .2 1;.4 0 .2 1;.4 0 .2 1;.4 0 .2 1" dur="8s" repeatCount="indefinite"/>')
 parts.append('<g>')
 if not static:
-    parts.append('<animateTransform attributeName="transform" type="translate" values="0 0;0 -18;0 0" dur="4s" repeatCount="indefinite"/>')
-parts.append('<g>')
-if not static:
-    parts.append('<animateTransform attributeName="transform" type="rotate" values="-3 270 390;3 270 390;-3 270 390" dur="4s" repeatCount="indefinite"/>')
+    parts.append('<animateTransform attributeName="transform" type="rotate" values="0;0;-3;2;0;0" keyTimes="0;.15;.42;.65;.9;1" dur="8s" repeatCount="indefinite"/>')
+parts.append('<g transform="translate(-270 -350)">')
 for i,row in enumerate((ROOT/'data/robot.txt').read_text().splitlines()):
  delay=i*.035
  attr='' if static else f'class="reveal" style="animation-delay:{delay:.3f}s"'
  parts.append(f'<text {attr} x="16" y="{112+i*13}" font-size="12" fill="#f1dfb7" xml:space="preserve">{esc(row)}</text>')
-parts.append('</g></g>')
+parts.append('</g></g></g></g></g>')
 y=87
 for i,(text,kind) in enumerate(config['rows']):
  if kind=='gap':y+=14;continue
