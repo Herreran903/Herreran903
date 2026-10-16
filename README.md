@@ -1,4 +1,4 @@
-![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-robot-focus.png)
+![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-linux.gif)
 
 ### `$ ./connect.sh`
 
@@ -8,13 +8,13 @@
 
 📍 Cali, Colombia · Open to remote opportunities
 
-## About
+## `$ cat about.md`
 
 Systems Engineer from **Universidad del Valle** (Cali, Colombia), with professional experience since 2023 across frontend, backend, and applied NLP. All degree requirements completed; degree conferral expected in December 2026.
 
 My undergraduate thesis builds a named entity recognition system for Spanish clinical text, comparing CRF, BiLSTM, RoBERTa and LLM approaches. In 2026 I completed a research internship at the **PReCISE group, Université de Namur** (Belgium) — where, fittingly for the theme of this page, I modeled the variability of the **FIA Formula 1 2026 Technical Regulations** using formal methods and SMT solvers.
 
-## Telemetry
+## `$ cat highlights.log`
 
 <p align="center">
   <img src="https://img.shields.io/badge/Thesis_strict_F1-0.8767-E10600?style=flat-square&labelColor=0B0E14" alt="F1 score">
@@ -24,7 +24,7 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
   <img src="https://img.shields.io/badge/GPA-4.84%20%2F%205.0-E10600?style=flat-square&labelColor=0B0E14" alt="GPA">
 </p>
 
-## Stack
+## `$ cat stack.conf`
 
 **Languages &amp; frameworks**
 
@@ -38,7 +38,7 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
 
 <p><img src="https://skillicons.dev/icons?i=docker,aws,vercel,git,github,linux&theme=dark" alt="infrastructure"></p>
 
-## Featured work
+## `$ ls ~/projects/featured`
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ A **BiLSTM-CRF** with in-domain Word2Vec on the public **CodiEsp** corpus, again
 </tr>
 </table>
 
-### 🏎️ Optimization &amp; formal methods
+### `$ ls ~/research/optimization`
 
 The line of work that started with a research internship and kept going.
 
@@ -142,7 +142,7 @@ The line of work that started with a research internship and kept going.
 | **PReCISE, Université de Namur** | Variability modeling of the **FIA Formula 1 2026 Technical Regulations** in UVL: 1,060 boolean features, 34 cardinalities, 1,212 constraints. Benchmarked Z3 (SMT) against CP-SAT and CBC — Z3 came out an order of magnitude faster. |
 
 <details>
-<summary><b>More projects</b> — data engineering, algorithms, simulation, languages</summary>
+<summary><b>$ ls ~/projects --all</b> — more projects & coursework</summary>
 
 <br>
 
@@ -160,7 +160,7 @@ The line of work that started with a research internship and kept going.
 </details>
 
 
-## Contribution graph
+## `$ git log --graph`
 
 <p align="center">
   <picture>
