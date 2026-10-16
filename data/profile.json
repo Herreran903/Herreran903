@@ -1,0 +1,89 @@
+{
+  "title": "herrera@github: ~",
+  "rows": [
+    [
+      "$ whoami",
+      "cmd"
+    ],
+    [
+      "Nicolás Herrera",
+      "title"
+    ],
+    [
+      "Systems Engineer",
+      "out"
+    ],
+    [
+      "",
+      "gap"
+    ],
+    [
+      "Universidad del Valle · Cali, Colombia",
+      "out"
+    ],
+    [
+      "Requirements completed · Conferral expected Dec 2026",
+      "out"
+    ],
+    [
+      "",
+      "gap"
+    ],
+    [
+      "$ cat focus.txt",
+      "cmd"
+    ],
+    [
+      "[ready]    backend development",
+      "out"
+    ],
+    [
+      "[ready]    applied NLP",
+      "out"
+    ],
+    [
+      "[learning] RAG & LLM applications",
+      "out"
+    ],
+    [
+      "[learning] robotics",
+      "out"
+    ],
+    [
+      "",
+      "gap"
+    ],
+    [
+      "$ cat stack.txt",
+      "cmd"
+    ],
+    [
+      "Python     → FastAPI, NLP & machine learning",
+      "out"
+    ],
+    [
+      "Java       → Spring Boot & microservices",
+      "out"
+    ],
+    [
+      "TypeScript → React & Next.js",
+      "out"
+    ],
+    [
+      "Docker · SQL · Git",
+      "out"
+    ],
+    [
+      "",
+      "gap"
+    ],
+    [
+      "$ outside --the-terminal",
+      "cmd"
+    ],
+    [
+      "F1 · Steins;Gate · alternative rock",
+      "out"
+    ]
+  ]
+}
