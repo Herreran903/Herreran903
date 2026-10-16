@@ -7,17 +7,19 @@ static=os.environ.get('STATIC')=='1'
 esc=html.escape
 parts=['<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">',
 '<title id="title">Nicolás Herrera — Systems Engineer</title><desc id="desc">Backend development and applied NLP. Learning RAG, LLM applications and robotics. All degree requirements completed, degree conferral expected December 2026.</desc>',
-'<style>text{font-family:Menlo,Consolas,"Liberation Mono",monospace} @media(prefers-reduced-motion:reduce){.reveal{animation:none!important;opacity:1!important}.pulse{animation:none!important}}',
+'<style>text{font-family:Menlo,Consolas,"Liberation Mono",monospace} @media(prefers-reduced-motion:reduce){.reveal{animation:none!important;opacity:1!important}.pulse{animation:none!important}.robot-motion{animation:none!important}}',
 '@keyframes reveal{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}} @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}',
-'.reveal{animation:reveal .3s ease both}.pulse{animation:pulse 2s ease-in-out infinite}</style>',
+'@keyframes robotFloat{0%,100%{transform:translate(0,0) rotate(-1deg)}50%{transform:translate(2px,-7px) rotate(1deg)}} .robot-motion{transform-origin:270px 390px;animation:robotFloat 5s ease-in-out infinite}.reveal{animation:reveal .3s ease both}.pulse{animation:pulse 2s ease-in-out infinite}</style>',
 '<rect x="1" y="1" width="1198" height="678" rx="18" fill="#101e25" stroke="#36535b" stroke-width="2"/>',
 '<path d="M20 49H1180" stroke="#36535b"/>']
 for x,c in [(25,'#cf8067'),(47,'#d9b778'),(69,'#7fa89a')]:parts.append(f'<circle cx="{x}" cy="25" r="5" fill="{c}"/>')
 parts.append(f'<text x="100" y="30" font-size="14" fill="#9eb3b6">{esc(config["title"])}</text>')
+parts.append('<g'+('' if static else ' class="robot-motion"')+'>')
 for i,row in enumerate((ROOT/'data/robot.txt').read_text().splitlines()):
  delay=i*.035
  attr='' if static else f'class="reveal" style="animation-delay:{delay:.3f}s"'
  parts.append(f'<text {attr} x="16" y="{112+i*13}" font-size="12" fill="#f1dfb7" xml:space="preserve">{esc(row)}</text>')
+parts.append('</g>')
 y=87
 for i,(text,kind) in enumerate(config['rows']):
  if kind=='gap':y+=14;continue
