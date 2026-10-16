@@ -1,6 +1,12 @@
-![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-robot-gustos.png)
+![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-robot-focus.png)
 
-[LinkedIn](https://www.linkedin.com/in/nicolas-herrera-dev/) · [Email](mailto:herreran903@gmail.com) · Cali, Colombia
+### `$ ./connect.sh`
+
+**Have something interesting to build? Let’s talk.**
+
+[✉️ `send_message()`](mailto:herreran903@gmail.com) · [🤝 `connect_on_linkedin()`](https://www.linkedin.com/in/nicolas-herrera-dev/)
+
+📍 Cali, Colombia · Open to remote opportunities
 
 ## About
 
