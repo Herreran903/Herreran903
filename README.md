@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=30&duration=2600&pause=1100&color=E10600&center=true&vCenter=true&width=800&height=70&lines=Nicol%C3%A1s+Herrera+Marulanda;Full+Stack+Developer;Applied+NLP+%26+Machine+Learning;Research+Intern+%40+PReCISE%2C+Universit%C3%A9+de+Namur;Systems+Engineering+%40+Universidad+del+Valle" alt="Nicolás Herrera Marulanda — Full Stack Developer">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=30&duration=2600&pause=1100&color=E10600&center=true&vCenter=true&width=800&height=70&lines=Nicol%C3%A1s+Herrera+Marulanda;Systems+Engineer;Applied+NLP+%26+Machine+Learning;Research+Intern+%40+PReCISE%2C+Universit%C3%A9+de+Namur;Systems+Engineering+%40+Universidad+del+Valle" alt="Nicolás Herrera Marulanda — Systems Engineer">
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ## About
 
-Systems Engineering student finishing my degree at **Universidad del Valle** (Cali, Colombia), with professional experience since 2023 across frontend, backend, and applied NLP.
+Systems Engineer from **Universidad del Valle** (Cali, Colombia), with professional experience since 2023 across frontend, backend, and applied NLP. All degree requirements completed; degree conferral expected in December 2026.
 
 My undergraduate thesis builds a named entity recognition system for Spanish clinical text, comparing CRF, BiLSTM, RoBERTa and LLM approaches. In 2026 I completed a research internship at the **PReCISE group, Université de Namur** (Belgium) — where, fittingly for the theme of this page, I modeled the variability of the **FIA Formula 1 2026 Technical Regulations** using formal methods and SMT solvers.
 
@@ -173,5 +173,5 @@ The line of work that started with a research internship and kept going.
 </p>
 
 <p align="center">
-  <sub>Open to remote roles worldwide · Graduating November 2026</sub>
+  <sub>Open to remote roles worldwide · All degree requirements completed · Degree conferral expected December 2026</sub>
 </p>
