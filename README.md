@@ -1,4 +1,4 @@
-![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-linux.gif)
+![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-linux-focus.gif)
 
 ### `$ ./connect.sh`
 
@@ -26,17 +26,20 @@ My undergraduate thesis builds a named entity recognition system for Spanish cli
 
 ## `$ cat stack.conf`
 
-**Languages &amp; frameworks**
+| Area | Technologies & practices |
+| --- | --- |
+| **Backend** | Python, FastAPI, Java, Spring Boot · REST APIs, microservices, JWT authentication, hexagonal architecture |
+| **Applied AI & NLP** | PyTorch, TensorFlow/Keras, Transformers · named entity recognition, sequence labeling, model training and evaluation |
+| **Databases** | PostgreSQL, MySQL, MongoDB |
+| **Frontend** | TypeScript, React, Next.js |
+| **Tools** | Docker, Git, Linux |
+| **Optimization** | MiniZinc, constraint programming, solver benchmarking |
+| **Additional experience** | PHP, Laravel, AWS |
 
-<p><img src="https://skillicons.dev/icons?i=ts,react,nextjs,java,spring,python,fastapi,php,laravel&theme=dark" alt="languages and frameworks"></p>
-
-**Data &amp; machine learning**
-
-<p><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,postgres,mysql,mongodb&theme=dark" alt="data and ml"></p>
-
-**Infrastructure &amp; tooling**
-
-<p><img src="https://skillicons.dev/icons?i=docker,aws,vercel,git,github,linux&theme=dark" alt="infrastructure"></p>
+```text
+[learning] RAG & LLM applications
+[learning] robotics
+```
 
 ## `$ ls ~/projects/featured`
 
