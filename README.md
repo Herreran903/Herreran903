@@ -1,4 +1,4 @@
-![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-profile.gif)
+![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-robot.gif)
 
 ### `$ ./connect.sh`
 
