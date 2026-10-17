@@ -57,20 +57,9 @@ MLP, RNN, LSTM and fine-tuned RoBERTa under three treatments of class imbalance.
 
 <img src="assets/prompt-research-v6.svg" width="100%" alt="$ ls ~/research/optimization">
 
-#### [JSSP solver](https://github.com/Herreran903/jssp-backend) · [visualizer](https://github.com/Herreran903/jssp-visualizer)
-Job Shop Scheduling with **MiniZinc** constraint models, tardiness and maintenance variants, served by a dockerized FastAPI service with a TypeScript visualizer.
-
-`MiniZinc` `FastAPI` `Docker` `TypeScript`
-
-#### [Solver selection with CNNs](https://github.com/Herreran903/practica-invg)
-**SAT** and **JSSP** instances encoded as images or tensors; a CNN predicts which solver finishes within the time limit.
-
-`SAT` `JSSP` `CNN` `YAML pipelines`
-
-#### PReCISE, Université de Namur
-The **FIA Formula 1 2026 Technical Regulations** modeled in UVL: 1,060 features, 1,212 constraints. **Z3 ran an order of magnitude faster** than CP-SAT and CBC.
-
-`UVL` `Z3` `CP-SAT` `CBC`
+- **[JSSP solver](https://github.com/Herreran903/jssp-backend)** · [visualizer](https://github.com/Herreran903/jssp-visualizer): Job Shop Scheduling in MiniZinc, served by FastAPI
+- **[Solver selection with CNNs](https://github.com/Herreran903/practica-invg)**: a CNN picks the solver that finishes a SAT or JSSP instance in time
+- **PReCISE, Namur**: F1 2026 rules in UVL; Z3 an order of magnitude faster than CP-SAT
 
 <details>
 <summary><code>$ ls ~/projects --all</code> · more projects & coursework</summary>
