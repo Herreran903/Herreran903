@@ -1,12 +1,12 @@
 <img src="assets/terminal-top-2.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
 
-<p><img src="assets/btn-ls-v6.svg" width="23.25%" alt="$ ls contact_me/"><a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-v6.svg" width="23.583%" alt="send_message.sh: email herreran903@gmail.com"></a><a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-v6.svg" width="30.583%" alt="connect_on_linkedin.sh: LinkedIn profile"></a><a href="https://x.com/herreran903"><img src="assets/btn-x-v6.svg" width="22.583%" alt="follow_on_x.sh: X profile @herreran903"></a></p>
+<p><img src="assets/btn-ls-v7.svg" width="26.25%" alt="$ ls contact_me/"><a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-v7.svg" width="22.583%" alt="send_message.sh: email herreran903@gmail.com"></a><a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-v7.svg" width="29.583%" alt="connect_on_linkedin.sh: LinkedIn profile"></a><a href="https://x.com/herreran903"><img src="assets/btn-x-v7.svg" width="21.583%" alt="follow_on_x.sh: X profile @herreran903"></a></p>
 
-<img src="assets/prompt-about-v6.svg" width="100%" alt="$ cat about.md">
+<img src="assets/prompt-about-v7.svg" width="100%" alt="$ cat about.md">
 
 Systems Engineer from Universidad del Valle (Cali, Colombia), working across backend and applied NLP since 2023. All degree requirements completed; conferral expected December 2026. My thesis built a named entity recognition system for Spanish clinical text, and in 2026 I modeled the FIA Formula 1 2026 Technical Regulations with SMT solvers as a research intern at the PReCISE group, Université de Namur.
 
-<img src="assets/prompt-projects-v6.svg" width="100%" alt="$ ls ~/projects/featured">
+<img src="assets/prompt-projects-v7.svg" width="100%" alt="$ ls ~/projects/featured">
 
 <table>
 <tr>
@@ -55,7 +55,7 @@ MLP, RNN, LSTM and fine-tuned RoBERTa under three treatments of class imbalance.
 </tr>
 </table>
 
-<img src="assets/prompt-research-v6.svg" width="100%" alt="$ ls ~/research/optimization">
+<img src="assets/prompt-research-v7.svg" width="100%" alt="$ ls ~/research/optimization">
 
 - **[JSSP solver](https://github.com/Herreran903/jssp-backend)** · [visualizer](https://github.com/Herreran903/jssp-visualizer): Job Shop Scheduling in MiniZinc, served by FastAPI
 - **[Solver selection with CNNs](https://github.com/Herreran903/practica-invg)**: a CNN picks the solver that finishes a SAT or JSSP instance in time
@@ -83,4 +83,4 @@ MLP, RNN, LSTM and fine-tuned RoBERTa under three treatments of class imbalance.
 
 </details>
 
-<img src="assets/prompt-exit-v6.svg" width="100%" alt="$ exit">
+<img src="assets/prompt-exit-v7.svg" width="100%" alt="$ exit">
