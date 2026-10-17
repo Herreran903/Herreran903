@@ -7,7 +7,7 @@ Have something interesting to build? Let’s talk.
 
 [✉️ `send_message()`](mailto:herreran903@gmail.com) · [🤝 `connect_on_linkedin()`](https://www.linkedin.com/in/nicolas-herrera-dev/) · 📍 Cali, Colombia · Open to remote opportunities
 
-<img src="assets/terminal-session.svg" alt="herrera@github:~$ cat about.md, highlights.log and stack.conf: Systems Engineer, Universidad del Valle; clinical NER thesis (strict F1 0.8767); PReCISE internship at Université de Namur; GPA 4.84/5.0; Python, FastAPI, Java, Spring Boot, PyTorch, Transformers." width="100%">
+<img src="assets/terminal-about.svg" alt="herrera@github:~$ cat about.md, highlights.log and stack.conf: Systems Engineer, Universidad del Valle; clinical NER thesis (strict F1 0.8767); PReCISE internship at Université de Namur; GPA 4.84/5.0; Python, FastAPI, Java, Spring Boot, PyTorch, Transformers." width="100%">
 
 ```text
 herrera@github:~$ ls ~/projects/featured
