@@ -1,11 +1,42 @@
 # Right half of the top console: typed once next to the looping robot.
 # Generated without window chrome; scripts/build_top_svg.py adds the title bar
 # and the robot frames, producing assets/terminal-top.svg.
-theme: dracula
+theme:
+  name: robot
+  colors:
+    text: "#b9c9ce"
+    comment: "#9eb3b6"
+    background: "#101e25"
+    titleBarBackground: "#101e25"
+    titleBarText: "#9eb3b6"
+    prompt: "#87c6c3"
+    cursor: "#f1dfb7"
+    red: "#cf8067"
+    green: "#66c99a"
+    yellow: "#d9b778"
+    blue: "#87c6c3"
+    magenta: "#cf8067"
+    cyan: "#87c6c3"
+    white: "#f1dfb7"
+    orange: "#d9b778"
+    purple: "#b9c9ce"
+    pink: "#cf8067"
+    brightRed: "#cf8067"
+    brightGreen: "#66c99a"
+    brightYellow: "#d9b778"
+    brightBlue: "#87c6c3"
+    brightMagenta: "#cf8067"
+    brightCyan: "#87c6c3"
+    brightWhite: "#f1dfb7"
+    brightBlack: "#36535b"
+  buttons:
+    close: "#cf8067"
+    minimize: "#d9b778"
+    maximize: "#7fa89a"
 
 window:
-  width: 640
-  height: 800
+  width: 800
+  height: 320
   style: none
   borderRadius: 0
 
@@ -15,7 +46,7 @@ terminal:
   lineHeight: 1.5
   padding: 8
   paddingTop: 34
-  prompt: "herrera@github:~$ "
+  prompt: "$ "
 
 effects:
   textGlow: false
@@ -35,39 +66,15 @@ blocks:
     config:
       command: whoami
       lines:
-        - "[[fg:cyan]]Nicolás Herrera[[/fg]]"
-        - "[[fg:cyan]]───────────────[[/fg]]"
-        - "Systems Engineer"
-        - ""
-        - "Universidad del Valle · Cali, Colombia"
-        - "Requirements completed"
-        - "Conferral expected Dec 2026"
-        - ""
-
-  - block: custom
-    config:
-      command: cat focus.txt
-      lines:
-        - "[[fg:cyan]][ready][[/fg]]    backend development"
-        - "[[fg:cyan]][ready][[/fg]]    applied NLP"
-        - "[[fg:yellow]][learning][[/fg]] RAG & LLM applications"
-        - "[[fg:yellow]][learning][[/fg]] robotics"
+        - "[[fg:white]]Nicolás Herrera[[/fg]]"
+        - "Systems Engineer · Universidad del Valle"
+        - "backend · applied NLP · learning RAG & robotics"
         - ""
 
   - block: custom
     config:
       command: cat stack.txt
       lines:
-        - "[[fg:cyan]]Python[[/fg]]     [[fg:comment]]→[[/fg]] FastAPI, NLP & machine learning"
-        - "[[fg:cyan]]Java[[/fg]]       [[fg:comment]]→[[/fg]] Spring Boot & microservices"
-        - "[[fg:cyan]]TypeScript[[/fg]] [[fg:comment]]→[[/fg]] React & Next.js"
-        - "Docker · SQL · Git"
+        - "Python · FastAPI · Java · Spring Boot · TypeScript · Docker"
         - ""
-
-  - block: custom
-    config:
-      command: outside --the-terminal
-      lines:
-        - "F1 · Steins;Gate · alternative rock"
-        - ""
-        - "[[fg:green]]●[[/fg]] Open to opportunities"
+        - "[[fg:green]]●[[/fg]] Open to remote opportunities"

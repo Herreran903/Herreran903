@@ -1,16 +1,21 @@
-<img src="assets/terminal-top.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
+<img src="assets/terminal-top-2.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
 
 <p>
-<a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail.svg" alt="Send me an email: herreran903@gmail.com"></a>
-<a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin.svg" alt="Connect on LinkedIn"></a>
-<img src="assets/btn-location.svg" alt="Cali, Colombia · open to remote">
+<img src="assets/btn-ls.svg" alt="$ ls contact_me/">
+<a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-2.svg" alt="send_message.sh: email herreran903@gmail.com"></a>
+<a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-2.svg" alt="connect_on_linkedin.sh: LinkedIn profile"></a>
 </p>
 
-<img src="assets/terminal-about-2.svg" alt="herrera@github:~$ cat about.md, highlights.log and stack.conf: Systems Engineer, Universidad del Valle; clinical NER thesis (strict F1 0.8767); PReCISE internship at Université de Namur; GPA 4.84/5.0; Python, FastAPI, Java, Spring Boot, PyTorch, Transformers." width="100%">
+```text
+$ cat about.md
+```
+
+Systems Engineer from Universidad del Valle (Cali, Colombia), working across backend and applied NLP since 2023. All degree requirements completed; conferral expected December 2026. My thesis built a named entity recognition system for Spanish clinical text, and in 2026 I modeled the FIA Formula 1 2026 Technical Regulations with SMT solvers as a research intern at the PReCISE group, Université de Namur.
 
 ```text
-herrera@github:~$ ls ~/projects/featured
+$ ls ~/projects/featured
 ```
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -21,50 +26,6 @@ herrera@github:~$ ls ~/projects/featured
 Corpus annotated from scratch, four modeling approaches compared. **0.8767 strict F1** on a held-out test set, dropping to **0.5636** against independent expert annotations — a gap in annotation criteria, reported as the study's main limitation. Served through a FastAPI microservices backend exposing five selectable models, each isolated in its own container.
 
 <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 [NER model pipelines](https://github.com/Herreran903/ner_pipelines)
-Neural architectures behind the thesis
-
-The **BiLSTM+CRF** baseline the thesis transformer had to beat. Custom Keras training loop over the **CRF log-likelihood** instead of a per-token loss, plus a Dice objective for the heavy `O`-tag imbalance. Pretrained Spanish Word2Vec embeddings, BIO tagging, grid search over batch size and epochs.
-
-<img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ [Emazon microservices](https://github.com/Herreran903/api-stock)
-**Pragma Power Up** · E-commerce backend
-
-Four REST microservices — users, catalog, cart, checkout — built on hexagonal architecture, with JWT auth and inter-service calls over OpenFeign that propagate the caller's token. **53 unit test classes.**
-
-<img src="https://img.shields.io/badge/-Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 [ToolFlow](https://github.com/kev405/toolflow-backend)
-Multi-site tool &amp; fleet management
-
-Inventory, loans and inter-site transfers for workshops with multiple locations. **Lead contributor on both ends** — 138 backend classes and 10 versioned Flyway migrations, plus the React frontend.
-
-<img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black">
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎮 [El Rescate de Hogwarts](https://github.com/Desarrollo-PI/Proyecto-Videojuego-SB)
-3D adventure game in the browser — **[play it →](https://proyecto-videojuego-sb.vercel.app)**
-
-Four levels, physics-driven movement, spell and mana systems, real-time multiplayer over Socket.IO. Full UX cycle behind it: interviews, affinity mapping, protopersonas and per-level usability testing.
-
-<img src="https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"> <img src="https://img.shields.io/badge/-React%20Three%20Fiber-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/-Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"> <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black">
 
 </td>
 <td width="50%" valign="top">
@@ -81,6 +42,16 @@ An agent session a whole team watches live. Every instruction is attributed, con
 <tr>
 <td width="50%" valign="top">
 
+### ⚙️ [Emazon microservices](https://github.com/Herreran903/api-stock)
+**Pragma Power Up** · E-commerce backend
+
+Four REST microservices — users, catalog, cart, checkout — built on hexagonal architecture, with JWT auth and inter-service calls over OpenFeign that propagate the caller's token. **53 unit test classes.**
+
+<img src="https://img.shields.io/badge/-Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+
+</td>
+<td width="50%" valign="top">
+
 ### 📊 [Yelp review classification](https://github.com/Herreran903/yelp-review-classification)
 **Neural Networks coursework** · Four architectures, one task
 
@@ -89,21 +60,11 @@ MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each unde
 <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white">
 
 </td>
-<td width="50%" valign="top">
-
-### 🩺 [Spanish clinical NER](https://github.com/Herreran903/spanish-clinical-ner)
-**NLP coursework** · Two routes to the same problem
-
-A **BiLSTM-CRF** with in-domain Word2Vec on the public **CodiEsp** corpus, against **BETO** and **XLM-RoBERTa** fine-tuned with **LoRA** adapters over ten oncology entity types including Gleason grading and TNM staging. Swept across epochs and batch sizes, scored with `seqeval` at entity level, and reported as **macro F1 0.905–0.933** rather than the weighted average the `O` tag inflates. Adapter published to the Hub.
-
-<img src="https://img.shields.io/badge/-Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"> <img src="https://img.shields.io/badge/-PEFT%20LoRA-FFD21E?style=flat-square&logo=huggingface&logoColor=black"> <img src="https://img.shields.io/badge/-TensorFlow%20CRF-FF6F00?style=flat-square&logo=tensorflow&logoColor=white">
-
-</td>
 </tr>
 </table>
 
 ```text
-herrera@github:~$ ls ~/research/optimization
+$ ls ~/research/optimization
 # the line of work that started with a research internship and kept going
 ```
 
@@ -114,12 +75,16 @@ herrera@github:~$ ls ~/research/optimization
 | **PReCISE, Université de Namur** | Variability modeling of the **FIA Formula 1 2026 Technical Regulations** in UVL: 1,060 boolean features, 34 cardinalities, 1,212 constraints. Benchmarked Z3 (SMT) against CP-SAT and CBC — Z3 came out an order of magnitude faster. |
 
 <details>
-<summary><code>herrera@github:~$ ls ~/projects --all</code> · more projects & coursework</summary>
+<summary><code>$ ls ~/projects --all</code> · more projects & coursework</summary>
 
 <br>
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[NER model pipelines](https://github.com/Herreran903/ner_pipelines)** | The BiLSTM+CRF baseline behind the thesis: a custom Keras loop over the CRF log-likelihood and a Dice objective for the `O`-tag imbalance. | `TensorFlow` `Keras` |
+| **[Spanish clinical NER](https://github.com/Herreran903/spanish-clinical-ner)** | BiLSTM-CRF against BETO and XLM-RoBERTa with LoRA adapters on CodiEsp, ten oncology entity types, macro F1 0.905–0.933. | `Transformers` `PEFT` |
+| **[ToolFlow](https://github.com/kev405/toolflow-backend)** | Inventory, loans and inter-site transfers for multi-site workshops. Lead contributor on the Spring Boot backend and the React frontend. | `Spring Boot` `PostgreSQL` `React` |
+| **[El Rescate de Hogwarts](https://github.com/Desarrollo-PI/Proyecto-Videojuego-SB)** | 3D adventure game in the browser with physics, spells and real-time multiplayer · [play it](https://proyecto-videojuego-sb.vercel.app) | `Three.js` `Socket.IO` |
 | **[fast-etl](https://github.com/Herreran903/fast-etl)** | Dimensional modeling pipeline: date, client, headquarter and messenger dimensions feeding an accumulating-snapshot fact table. | `Python` `Jupyter` |
 | **[Proyecto-ADA](https://github.com/Herreran903/Proyecto-ADA)** | Algorithm analysis and design: red-black trees, binary trees and heaps implemented from scratch over a scheduling domain. | `Python` |
 | **[TallerAsociacion](https://github.com/Herreran903/TallerAsociacion)** | Association rule mining over prescribed-medication records. | `Python` `Jupyter` |
@@ -132,7 +97,5 @@ herrera@github:~$ ls ~/research/optimization
 </details>
 
 ```text
-herrera@github:~$ exit
-# Open to remote roles worldwide · All degree requirements completed
-# Degree conferral expected December 2026
+$ exit
 ```
