@@ -133,18 +133,6 @@ herrera@github:~$ ls ~/research/optimization
 </details>
 
 ```text
-herrera@github:~$ git log --graph
-```
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Herreran903/Herreran903/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Herreran903/Herreran903/output/github-snake.svg">
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Herreran903/Herreran903/output/github-snake.svg">
-  </picture>
-</p>
-
-```text
 herrera@github:~$ exit
 # Open to remote roles worldwide · All degree requirements completed
 # Degree conferral expected December 2026
