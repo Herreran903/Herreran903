@@ -1,0 +1,108 @@
+# Second panel of the profile: continues the session started in the robot GIF.
+# Same palette and prompt as scripts/render_robot_dolly.py.
+theme:
+  name: robot-terminal
+  colors:
+    text: "#f1dfb7"
+    comment: "#9eb3b6"
+    background: "#101e25"
+    titleBarBackground: "#101e25"
+    titleBarText: "#9eb3b6"
+    prompt: "#87c6c3"
+    cursor: "#f1dfb7"
+    red: "#cf8067"
+    green: "#7fa89a"
+    yellow: "#d9b778"
+    blue: "#87c6c3"
+    magenta: "#cf8067"
+    cyan: "#87c6c3"
+    white: "#f1dfb7"
+    orange: "#d9b778"
+    purple: "#b9c9ce"
+    pink: "#cf8067"
+    brightRed: "#cf8067"
+    brightGreen: "#7fa89a"
+    brightYellow: "#d9b778"
+    brightBlue: "#87c6c3"
+    brightMagenta: "#cf8067"
+    brightCyan: "#87c6c3"
+    brightWhite: "#f1dfb7"
+    brightBlack: "#36535b"
+  buttons:
+    close: "#cf8067"
+    minimize: "#d9b778"
+    maximize: "#7fa89a"
+
+window:
+  width: 1200
+  title: "herrera@github: ~"
+  style: macos
+  height: 750
+  autoHeight: false
+  minHeight: 300
+  maxHeight: 1400
+  borderRadius: 18
+
+terminal:
+  fontFamily: "Menlo, Consolas, DejaVu Sans Mono, monospace"
+  fontSize: 15
+  lineHeight: 1.6
+  padding: 28
+  prompt: "herrera@github:~$ "
+
+chrome:
+  titleFontFamily: "Menlo, Consolas, DejaVu Sans Mono, monospace"
+  titleFontSize: 14
+
+effects:
+  textGlow: false
+  scanlines: false
+  vignette: false
+  shadow: false
+
+animation:
+  loop: false
+  defaultTypingDuration: 700
+  outputLineStagger: 40
+  commandOutputPause: 200
+  defaultSequencePause: 450
+
+blocks:
+  - block: custom
+    config:
+      command: cat about.md
+      lines:
+        - "Systems Engineer from Universidad del Valle (Cali, Colombia), with professional experience"
+        - "since 2023 across frontend, backend, and applied NLP. All degree requirements completed;"
+        - "degree conferral expected in December 2026."
+        - ""
+        - "My undergraduate thesis builds a named entity recognition system for Spanish clinical text,"
+        - "comparing CRF, BiLSTM, RoBERTa and LLM approaches. In 2026 I completed a research internship"
+        - "at the PReCISE group, Université de Namur (Belgium) — where, fittingly for the theme of this"
+        - "page, I modeled the variability of the FIA Formula 1 2026 Technical Regulations using formal"
+        - "methods and SMT solvers."
+        - ""
+
+  - block: custom
+    config:
+      command: cat highlights.log
+      lines:
+        - "[[fg:comment]]thesis_strict_f1[[/fg]]        0.8767"
+        - "[[fg:comment]]unit_test_classes[[/fg]]       53"
+        - "[[fg:comment]]java_classes_shipped[[/fg]]    265"
+        - "[[fg:comment]]academic_distinctions[[/fg]]   7 semesters"
+        - "[[fg:comment]]gpa[[/fg]]                     4.84 / 5.0"
+        - ""
+
+  - block: custom
+    config:
+      command: cat stack.conf
+      lines:
+        - "[[fg:comment]]backend[[/fg]]        Python, FastAPI, Java, Spring Boot · REST APIs, microservices, JWT, hexagonal"
+        - "[[fg:comment]]applied_ai[[/fg]]     PyTorch, TensorFlow/Keras, Transformers · NER, sequence labeling, evaluation"
+        - "[[fg:comment]]databases[[/fg]]      PostgreSQL, MySQL, MongoDB"
+        - "[[fg:comment]]frontend[[/fg]]       TypeScript, React, Next.js"
+        - "[[fg:comment]]tools[[/fg]]          Docker, Git, Linux"
+        - "[[fg:comment]]optimization[[/fg]]   MiniZinc, constraint programming, solver benchmarking"
+        - "[[fg:comment]]also[[/fg]]           PHP, Laravel, AWS"
+        - "[[fg:yellow]][learning][[/fg]]     RAG & LLM applications · robotics"

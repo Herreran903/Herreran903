@@ -1,48 +1,17 @@
 ![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-robot.gif)
 
-### `$ ./connect.sh`
-
-**Have something interesting to build? Let’s talk.**
-
-[✉️ `send_message()`](mailto:herreran903@gmail.com) · [🤝 `connect_on_linkedin()`](https://www.linkedin.com/in/nicolas-herrera-dev/)
-
-📍 Cali, Colombia · Open to remote opportunities
-
-## `$ cat about.md`
-
-Systems Engineer from **Universidad del Valle** (Cali, Colombia), with professional experience since 2023 across frontend, backend, and applied NLP. All degree requirements completed; degree conferral expected in December 2026.
-
-My undergraduate thesis builds a named entity recognition system for Spanish clinical text, comparing CRF, BiLSTM, RoBERTa and LLM approaches. In 2026 I completed a research internship at the **PReCISE group, Université de Namur** (Belgium) — where, fittingly for the theme of this page, I modeled the variability of the **FIA Formula 1 2026 Technical Regulations** using formal methods and SMT solvers.
-
-## `$ cat highlights.log`
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Thesis_strict_F1-0.8767-E10600?style=flat-square&labelColor=0B0E14" alt="F1 score">
-  <img src="https://img.shields.io/badge/Unit_test_classes-53-E10600?style=flat-square&labelColor=0B0E14" alt="tests">
-  <img src="https://img.shields.io/badge/Java_classes_shipped-265-E10600?style=flat-square&labelColor=0B0E14" alt="classes">
-  <img src="https://img.shields.io/badge/Academic_distinctions-8_semesters-E10600?style=flat-square&labelColor=0B0E14" alt="distinctions">
-  <img src="https://img.shields.io/badge/GPA-4.84%20%2F%205.0-E10600?style=flat-square&labelColor=0B0E14" alt="GPA">
-</p>
-
-## `$ cat stack.conf`
-
-| Area | Technologies & practices |
-| --- | --- |
-| **Backend** | Python, FastAPI, Java, Spring Boot · REST APIs, microservices, JWT authentication, hexagonal architecture |
-| **Applied AI & NLP** | PyTorch, TensorFlow/Keras, Transformers · named entity recognition, sequence labeling, model training and evaluation |
-| **Databases** | PostgreSQL, MySQL, MongoDB |
-| **Frontend** | TypeScript, React, Next.js |
-| **Tools** | Docker, Git, Linux |
-| **Optimization** | MiniZinc, constraint programming, solver benchmarking |
-| **Additional experience** | PHP, Laravel, AWS |
-
 ```text
-[learning] RAG & LLM applications
-[learning] robotics
+herrera@github:~$ ./connect.sh
+Have something interesting to build? Let’s talk.
 ```
 
-## `$ ls ~/projects/featured`
+[✉️ `send_message()`](mailto:herreran903@gmail.com) · [🤝 `connect_on_linkedin()`](https://www.linkedin.com/in/nicolas-herrera-dev/) · 📍 Cali, Colombia · Open to remote opportunities
 
+<img src="assets/terminal-session.svg" alt="herrera@github:~$ cat about.md, highlights.log and stack.conf: Systems Engineer, Universidad del Valle; clinical NER thesis (strict F1 0.8767); PReCISE internship at Université de Namur; GPA 4.84/5.0; Python, FastAPI, Java, Spring Boot, PyTorch, Transformers." width="100%">
+
+```text
+herrera@github:~$ ls ~/projects/featured
+```
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -134,9 +103,10 @@ A **BiLSTM-CRF** with in-domain Word2Vec on the public **CodiEsp** corpus, again
 </tr>
 </table>
 
-### `$ ls ~/research/optimization`
-
-The line of work that started with a research internship and kept going.
+```text
+herrera@github:~$ ls ~/research/optimization
+# the line of work that started with a research internship and kept going
+```
 
 | | |
 |---|---|
@@ -145,7 +115,7 @@ The line of work that started with a research internship and kept going.
 | **PReCISE, Université de Namur** | Variability modeling of the **FIA Formula 1 2026 Technical Regulations** in UVL: 1,060 boolean features, 34 cardinalities, 1,212 constraints. Benchmarked Z3 (SMT) against CP-SAT and CBC — Z3 came out an order of magnitude faster. |
 
 <details>
-<summary><b>$ ls ~/projects --all</b> — more projects & coursework</summary>
+<summary><code>herrera@github:~$ ls ~/projects --all</code> · more projects & coursework</summary>
 
 <br>
 
@@ -162,8 +132,9 @@ The line of work that started with a research internship and kept going.
 
 </details>
 
-
-## `$ git log --graph`
+```text
+herrera@github:~$ git log --graph
+```
 
 <p align="center">
   <picture>
@@ -173,6 +144,8 @@ The line of work that started with a research internship and kept going.
   </picture>
 </p>
 
-<p align="center">
-  <sub>Open to remote roles worldwide · All degree requirements completed · Degree conferral expected December 2026</sub>
-</p>
+```text
+herrera@github:~$ exit
+# Open to remote roles worldwide · All degree requirements completed
+# Degree conferral expected December 2026
+```
