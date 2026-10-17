@@ -1,12 +1,12 @@
 <img src="assets/terminal-top-2.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
 
-<p><img src="assets/btn-ls-v4.svg" width="52.166%" alt="$ ls contact_me/"><a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-v4.svg" width="20.416%" alt="send_message.sh: email herreran903@gmail.com"></a><a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-v4.svg" width="27.416%" alt="connect_on_linkedin.sh: LinkedIn profile"></a></p>
+<p><img src="assets/btn-ls-v5.svg" width="23.25%" alt="$ ls contact_me/"><a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-v5.svg" width="23.583%" alt="send_message.sh: email herreran903@gmail.com"></a><a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-v5.svg" width="30.583%" alt="connect_on_linkedin.sh: LinkedIn profile"></a><a href="https://x.com/herreran903"><img src="assets/btn-x-v5.svg" width="22.583%" alt="follow_on_x.sh: X profile @herreran903"></a></p>
 
-<img src="assets/prompt-about-v4.svg" width="100%" alt="$ cat about.md">
+<img src="assets/prompt-about-v5.svg" width="100%" alt="$ cat about.md">
 
 Systems Engineer from Universidad del Valle (Cali, Colombia), working across backend and applied NLP since 2023. All degree requirements completed; conferral expected December 2026. My thesis built a named entity recognition system for Spanish clinical text, and in 2026 I modeled the FIA Formula 1 2026 Technical Regulations with SMT solvers as a research intern at the PReCISE group, Université de Namur.
 
-<img src="assets/prompt-projects-v4.svg" width="100%" alt="$ ls ~/projects/featured">
+<img src="assets/prompt-projects-v5.svg" width="100%" alt="$ ls ~/projects/featured">
 
 <table>
 <tr>
@@ -55,7 +55,7 @@ MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each unde
 </tr>
 </table>
 
-<img src="assets/prompt-research-v4.svg" width="100%" alt="$ ls ~/research/optimization">
+<img src="assets/prompt-research-v5.svg" width="100%" alt="$ ls ~/research/optimization">
 
 The line of work that started with a research internship and kept going.
 
@@ -87,4 +87,4 @@ The line of work that started with a research internship and kept going.
 
 </details>
 
-<img src="assets/prompt-exit-v4.svg" width="100%" alt="$ exit">
+<img src="assets/prompt-exit-v5.svg" width="100%" alt="$ exit">
