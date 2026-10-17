@@ -1,16 +1,16 @@
 <img src="assets/terminal-top-2.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
 
 <p>
-<img src="assets/btn-ls-2.svg" alt="$ ls contact_me/">
-<a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-2.svg" alt="send_message.sh: email herreran903@gmail.com"></a>
-<a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-2.svg" alt="connect_on_linkedin.sh: LinkedIn profile"></a>
+<img src="assets/btn-ls-v3.svg" width="19.42%" alt="$ ls contact_me/">
+<a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail-v3.svg" width="19.42%" alt="send_message.sh: email herreran903@gmail.com"></a>
+<a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin-v3.svg" width="26.42%" alt="connect_on_linkedin.sh: LinkedIn profile"></a>
 </p>
 
-<img src="assets/prompt-about.svg" alt="$ cat about.md">
+<img src="assets/prompt-about-v3.svg" width="17.42%" alt="$ cat about.md">
 
 Systems Engineer from Universidad del Valle (Cali, Colombia), working across backend and applied NLP since 2023. All degree requirements completed; conferral expected December 2026. My thesis built a named entity recognition system for Spanish clinical text, and in 2026 I modeled the FIA Formula 1 2026 Technical Regulations with SMT solvers as a research intern at the PReCISE group, Université de Namur.
 
-<img src="assets/prompt-projects.svg" alt="$ ls ~/projects/featured">
+<img src="assets/prompt-projects-v3.svg" width="27.42%" alt="$ ls ~/projects/featured">
 
 <table>
 <tr>
@@ -59,7 +59,7 @@ MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each unde
 </tr>
 </table>
 
-<img src="assets/prompt-research.svg" alt="$ ls ~/research/optimization">
+<img src="assets/prompt-research-v3.svg" width="31.42%" alt="$ ls ~/research/optimization">
 
 The line of work that started with a research internship and kept going.
 
@@ -91,4 +91,4 @@ The line of work that started with a research internship and kept going.
 
 </details>
 
-<img src="assets/prompt-exit.svg" alt="$ exit">
+<img src="assets/prompt-exit-v3.svg" width="9.33%" alt="$ exit">
