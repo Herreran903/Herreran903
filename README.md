@@ -12,44 +12,44 @@ Systems Engineer from Universidad del Valle (Cali, Colombia), working across bac
 <tr>
 <td width="50%" valign="top">
 
-### 🏁 [MedAI](https://github.com/Herreran903/medai-backend)
-**Undergraduate thesis** · Clinical NER in Spanish
+#### [MedAI](https://github.com/Herreran903/medai-backend)
+**Undergraduate thesis** · clinical NER in Spanish
 
-Corpus annotated from scratch, four modeling approaches compared. **0.8767 strict F1** on a held-out test set, dropping to **0.5636** against independent expert annotations — a gap in annotation criteria, reported as the study's main limitation. Served through a FastAPI microservices backend exposing five selectable models, each isolated in its own container.
+Four modeling approaches on a corpus annotated from scratch. **0.8767 strict F1** on the held-out test, **0.5636** against independent experts.
 
-<img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+`Python` `FastAPI` `Next.js` `MongoDB`
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 [La Sala](https://github.com/Herreran903/la-sala)
-**Hackathon** · Shared LLM agent session — **[try it →](https://sesion-agente.vercel.app)**
+#### [La Sala](https://github.com/Herreran903/la-sala)
+**Hackathon** · shared LLM agent session · [try it →](https://sesion-agente.vercel.app)
 
-An agent session a whole team watches live. Every instruction is attributed, conflicting requests open a **vote that halts the agent**, and control passes between drivers without losing context.
+A whole team drives one agent live. Every instruction is attributed, and conflicting requests open a **vote that halts the agent**.
 
-<img src="https://img.shields.io/badge/-Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/-React%2019-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+`Next.js 16` `React 19` `TypeScript`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [Emazon microservices](https://github.com/Herreran903/api-stock)
-**Pragma Power Up** · E-commerce backend
+#### [Emazon microservices](https://github.com/Herreran903/api-stock)
+**Pragma Power Up** · e-commerce backend
 
-Four REST microservices — users, catalog, cart, checkout — built on hexagonal architecture, with JWT auth and inter-service calls over OpenFeign that propagate the caller's token. **53 unit test classes.**
+Four REST microservices on hexagonal architecture, with JWT auth and OpenFeign calls between them. **53 unit test classes.**
 
-<img src="https://img.shields.io/badge/-Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+`Java 17` `Spring Boot` `MySQL`
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 [Yelp review classification](https://github.com/Herreran903/yelp-review-classification)
-**Neural Networks coursework** · Four architectures, one task
+#### [Yelp review classification](https://github.com/Herreran903/yelp-review-classification)
+**Neural Networks coursework** · review ratings
 
-MLP, RNN, LSTM and a fine-tuned **RoBERTa** predicting review ratings, each under three treatments of class imbalance. The result worth reading is a negative one: **loss weighting failed to remove majority-class bias in every configuration**, undersampling traded accuracy for fairness, and scale erased the tradeoff. Bayesian search over 30 trials; the full Yelp dump streamed as NDJSON into Parquet shards to fit Colab. Ships with the 37-page report.
+MLP, RNN, LSTM and fine-tuned RoBERTa under three treatments of class imbalance. **Loss weighting failed to remove majority-class bias.**
 
-<img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/-Polars-CD792C?style=flat-square&logo=polars&logoColor=white">
+`TensorFlow` `Keras` `Polars`
 
 </td>
 </tr>
