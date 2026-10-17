@@ -1,37 +1,6 @@
 # Second panel of the profile: continues the session started in the robot GIF.
-# Same palette and prompt as scripts/render_robot_dolly.py.
-theme:
-  name: robot-terminal
-  colors:
-    text: "#f1dfb7"
-    comment: "#9eb3b6"
-    background: "#101e25"
-    titleBarBackground: "#101e25"
-    titleBarText: "#9eb3b6"
-    prompt: "#87c6c3"
-    cursor: "#f1dfb7"
-    red: "#cf8067"
-    green: "#7fa89a"
-    yellow: "#d9b778"
-    blue: "#87c6c3"
-    magenta: "#cf8067"
-    cyan: "#87c6c3"
-    white: "#f1dfb7"
-    orange: "#d9b778"
-    purple: "#b9c9ce"
-    pink: "#cf8067"
-    brightRed: "#cf8067"
-    brightGreen: "#7fa89a"
-    brightYellow: "#d9b778"
-    brightBlue: "#87c6c3"
-    brightMagenta: "#cf8067"
-    brightCyan: "#87c6c3"
-    brightWhite: "#f1dfb7"
-    brightBlack: "#36535b"
-  buttons:
-    close: "#cf8067"
-    minimize: "#d9b778"
-    maximize: "#7fa89a"
+# Same palette (dracula) and prompt as scripts/render_robot_dolly.py.
+theme: dracula
 
 window:
   width: 1200
@@ -87,22 +56,22 @@ blocks:
     config:
       command: cat highlights.log
       lines:
-        - "[[fg:comment]]thesis_strict_f1[[/fg]]        0.8767"
-        - "[[fg:comment]]unit_test_classes[[/fg]]       53"
-        - "[[fg:comment]]java_classes_shipped[[/fg]]    265"
-        - "[[fg:comment]]academic_distinctions[[/fg]]   7 semesters"
-        - "[[fg:comment]]gpa[[/fg]]                     4.84 / 5.0"
+        - "[[fg:cyan]]thesis_strict_f1[[/fg]]        0.8767"
+        - "[[fg:cyan]]unit_test_classes[[/fg]]       53"
+        - "[[fg:cyan]]java_classes_shipped[[/fg]]    265"
+        - "[[fg:cyan]]academic_distinctions[[/fg]]   7 semesters"
+        - "[[fg:cyan]]gpa[[/fg]]                     4.84 / 5.0"
         - ""
 
   - block: custom
     config:
       command: cat stack.conf
       lines:
-        - "[[fg:comment]]backend[[/fg]]        Python, FastAPI, Java, Spring Boot · REST APIs, microservices, JWT, hexagonal"
-        - "[[fg:comment]]applied_ai[[/fg]]     PyTorch, TensorFlow/Keras, Transformers · NER, sequence labeling, evaluation"
-        - "[[fg:comment]]databases[[/fg]]      PostgreSQL, MySQL, MongoDB"
-        - "[[fg:comment]]frontend[[/fg]]       TypeScript, React, Next.js"
-        - "[[fg:comment]]tools[[/fg]]          Docker, Git, Linux"
-        - "[[fg:comment]]optimization[[/fg]]   MiniZinc, constraint programming, solver benchmarking"
-        - "[[fg:comment]]also[[/fg]]           PHP, Laravel, AWS"
+        - "[[fg:cyan]]backend[[/fg]]        Python, FastAPI, Java, Spring Boot · REST APIs, microservices, JWT, hexagonal"
+        - "[[fg:cyan]]applied_ai[[/fg]]     PyTorch, TensorFlow/Keras, Transformers · NER, sequence labeling, evaluation"
+        - "[[fg:cyan]]databases[[/fg]]      PostgreSQL, MySQL, MongoDB"
+        - "[[fg:cyan]]frontend[[/fg]]       TypeScript, React, Next.js"
+        - "[[fg:cyan]]tools[[/fg]]          Docker, Git, Linux"
+        - "[[fg:cyan]]optimization[[/fg]]   MiniZinc, constraint programming, solver benchmarking"
+        - "[[fg:cyan]]also[[/fg]]           PHP, Laravel, AWS"
         - "[[fg:yellow]][learning][[/fg]]     RAG & LLM applications · robotics"
