@@ -57,13 +57,20 @@ MLP, RNN, LSTM and fine-tuned RoBERTa under three treatments of class imbalance.
 
 <img src="assets/prompt-research-v6.svg" width="100%" alt="$ ls ~/research/optimization">
 
-The line of work that started with a research internship and kept going.
+#### [JSSP solver](https://github.com/Herreran903/jssp-backend) · [visualizer](https://github.com/Herreran903/jssp-visualizer)
+Job Shop Scheduling with **MiniZinc** constraint models, tardiness and maintenance variants, served by a dockerized FastAPI service with a TypeScript visualizer.
 
-| | |
-|---|---|
-| **[JSSP solver](https://github.com/Herreran903/jssp-backend)** · **[visualizer](https://github.com/Herreran903/jssp-visualizer)** | Job Shop Scheduling solved with **MiniZinc** constraint models — tardiness and maintenance variants — exposed through a dockerized FastAPI service, with a TypeScript frontend to explore the schedules. |
-| **[Solver selection with CNNs](https://github.com/Herreran903/practica-invg)** | Instances of **SAT** and **JSSP** encoded as images or tensors, then a CNN predicts which solver cracks them inside the time limit. Classification, multilabel and regression pipelines, all YAML-driven. |
-| **PReCISE, Université de Namur** | Variability modeling of the **FIA Formula 1 2026 Technical Regulations** in UVL: 1,060 boolean features, 34 cardinalities, 1,212 constraints. Benchmarked Z3 (SMT) against CP-SAT and CBC — Z3 came out an order of magnitude faster. |
+`MiniZinc` `FastAPI` `Docker` `TypeScript`
+
+#### [Solver selection with CNNs](https://github.com/Herreran903/practica-invg)
+**SAT** and **JSSP** instances encoded as images or tensors; a CNN predicts which solver finishes within the time limit.
+
+`SAT` `JSSP` `CNN` `YAML pipelines`
+
+#### PReCISE, Université de Namur
+The **FIA Formula 1 2026 Technical Regulations** modeled in UVL: 1,060 features, 1,212 constraints. **Z3 ran an order of magnitude faster** than CP-SAT and CBC.
+
+`UVL` `Z3` `CP-SAT` `CBC`
 
 <details>
 <summary><code>$ ls ~/projects --all</code> · more projects & coursework</summary>
