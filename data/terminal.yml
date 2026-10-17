@@ -6,7 +6,7 @@ window:
   width: 1200
   title: "herrera@github: ~"
   style: macos
-  height: 1000
+  height: 1014
   autoHeight: false
   minHeight: 300
   maxHeight: 1400
@@ -17,6 +17,7 @@ terminal:
   fontSize: 20
   lineHeight: 1.5
   padding: 28
+  paddingTop: 22
   prompt: "herrera@github:~$ "
 
 chrome:

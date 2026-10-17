@@ -1,4 +1,4 @@
-<svg width="1200" height="1000" viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg"
+<svg width="1200" height="1014" viewBox="0 0 1200 1014" xmlns="http://www.w3.org/2000/svg"
   role="img" aria-label="Animated terminal showing: cat about.md, cat highlights.log, cat stack.conf">
   <title>Animated terminal showing: cat about.md, cat highlights.log, cat stack.conf</title>
   <desc>herrera@github:~$ cat about.md
@@ -62,13 +62,13 @@ also           PHP, Laravel, AWS
     
     
     <clipPath id="terminalViewport">
-      <rect x="0" y="40" width="1200" height="960"/>
+      <rect x="0" y="40" width="1200" height="974"/>
     </clipPath>
   </defs>
 
   <g>
     
-    <rect x="0" y="0" width="1200" height="1000"
+    <rect x="0" y="0" width="1200" height="1014"
           rx="18" ry="18"
           fill="#0a0e27"/>
     
@@ -89,9 +89,9 @@ also           PHP, Laravel, AWS
     </text>
     
     <rect x="0" y="40" width="1200"
-          height="960" fill="#0a0e27"/>
+          height="974" fill="#0a0e27"/>
     <g clip-path="url(#terminalViewport)">
-      <g id="scrollContainer" transform="translate(28, 54)">
+      <g id="scrollContainer" transform="translate(28, 62)">
         
         
     <g transform="translate(0, 0)">

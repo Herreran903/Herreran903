@@ -1,13 +1,12 @@
 <img src="assets/terminal-top.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
 
-```text
-herrera@github:~$ ./connect.sh
-Have something interesting to build? Let’s talk.
-```
+<p>
+<a href="mailto:herreran903@gmail.com"><img src="assets/btn-mail.svg" alt="Send me an email: herreran903@gmail.com"></a>
+<a href="https://www.linkedin.com/in/nicolas-herrera-dev/"><img src="assets/btn-linkedin.svg" alt="Connect on LinkedIn"></a>
+<img src="assets/btn-location.svg" alt="Cali, Colombia · open to remote">
+</p>
 
-[✉️ `send_message()`](mailto:herreran903@gmail.com) · [🤝 `connect_on_linkedin()`](https://www.linkedin.com/in/nicolas-herrera-dev/) · 📍 Cali, Colombia · Open to remote opportunities
-
-<img src="assets/terminal-about.svg" alt="herrera@github:~$ cat about.md, highlights.log and stack.conf: Systems Engineer, Universidad del Valle; clinical NER thesis (strict F1 0.8767); PReCISE internship at Université de Namur; GPA 4.84/5.0; Python, FastAPI, Java, Spring Boot, PyTorch, Transformers." width="100%">
+<img src="assets/terminal-about-2.svg" alt="herrera@github:~$ cat about.md, highlights.log and stack.conf: Systems Engineer, Universidad del Valle; clinical NER thesis (strict F1 0.8767); PReCISE internship at Université de Namur; GPA 4.84/5.0; Python, FastAPI, Java, Spring Boot, PyTorch, Transformers." width="100%">
 
 ```text
 herrera@github:~$ ls ~/projects/featured
