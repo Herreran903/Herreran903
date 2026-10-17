@@ -6,7 +6,7 @@ window:
   width: 1200
   title: "herrera@github: ~"
   style: macos
-  height: 750
+  height: 1000
   autoHeight: false
   minHeight: 300
   maxHeight: 1400
@@ -14,8 +14,8 @@ window:
 
 terminal:
   fontFamily: "Menlo, Consolas, DejaVu Sans Mono, monospace"
-  fontSize: 15
-  lineHeight: 1.6
+  fontSize: 20
+  lineHeight: 1.5
   padding: 28
   prompt: "herrera@github:~$ "
 

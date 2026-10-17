@@ -1,4 +1,4 @@
-![Nicolás Herrera — Systems Engineer. Applied NLP, backend, optimization and robotics interests.](assets/terminal-robot.gif)
+<img src="assets/terminal-top.svg" width="100%" alt="Nicolás Herrera, Systems Engineer. Character-art robot next to a terminal: Universidad del Valle, Cali, Colombia; backend development and applied NLP; learning RAG & LLM applications and robotics.">
 
 ```text
 herrera@github:~$ ./connect.sh

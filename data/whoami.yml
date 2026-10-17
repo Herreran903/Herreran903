@@ -1,0 +1,73 @@
+# Right half of the top console: typed once next to the looping robot.
+# Generated without window chrome; scripts/build_top_svg.py adds the title bar
+# and the robot frames, producing assets/terminal-top.svg.
+theme: dracula
+
+window:
+  width: 640
+  height: 800
+  style: none
+  borderRadius: 0
+
+terminal:
+  fontFamily: "Menlo, Consolas, DejaVu Sans Mono, monospace"
+  fontSize: 20
+  lineHeight: 1.5
+  padding: 8
+  paddingTop: 34
+  prompt: "herrera@github:~$ "
+
+effects:
+  textGlow: false
+  scanlines: false
+  vignette: false
+  shadow: false
+
+animation:
+  loop: false
+  defaultTypingDuration: 600
+  outputLineStagger: 40
+  commandOutputPause: 150
+  defaultSequencePause: 250
+
+blocks:
+  - block: custom
+    config:
+      command: whoami
+      lines:
+        - "[[fg:cyan]]Nicolás Herrera[[/fg]]"
+        - "[[fg:cyan]]───────────────[[/fg]]"
+        - "Systems Engineer"
+        - ""
+        - "Universidad del Valle · Cali, Colombia"
+        - "Requirements completed"
+        - "Conferral expected Dec 2026"
+        - ""
+
+  - block: custom
+    config:
+      command: cat focus.txt
+      lines:
+        - "[[fg:cyan]][ready][[/fg]]    backend development"
+        - "[[fg:cyan]][ready][[/fg]]    applied NLP"
+        - "[[fg:yellow]][learning][[/fg]] RAG & LLM applications"
+        - "[[fg:yellow]][learning][[/fg]] robotics"
+        - ""
+
+  - block: custom
+    config:
+      command: cat stack.txt
+      lines:
+        - "[[fg:cyan]]Python[[/fg]]     [[fg:comment]]→[[/fg]] FastAPI, NLP & machine learning"
+        - "[[fg:cyan]]Java[[/fg]]       [[fg:comment]]→[[/fg]] Spring Boot & microservices"
+        - "[[fg:cyan]]TypeScript[[/fg]] [[fg:comment]]→[[/fg]] React & Next.js"
+        - "Docker · SQL · Git"
+        - ""
+
+  - block: custom
+    config:
+      command: outside --the-terminal
+      lines:
+        - "F1 · Steins;Gate · alternative rock"
+        - ""
+        - "[[fg:green]]●[[/fg]] Open to opportunities"
